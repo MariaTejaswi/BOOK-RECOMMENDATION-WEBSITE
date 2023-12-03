@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        header {
+            background-color: #000000;
+            color: aqua;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #book-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        #book-image {
+            width: 200px;
+            max-height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #book-image:hover {
+            transform: scale(1.1);
+        }
+
+        .review {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .search-bar {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-input {
+            padding: 10px;
+            width: 70%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .search-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .search-button:hover {
+            background-color: teal;
+        }
+
+        .add-review {
+            margin-top: 20px;
+            margin-left: 200px;
+            margin-right: 300px;
+        }
+
+        .add-review textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .add-review button {
+            padding: 10px 20px;
+            background-color: #555;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .add-review button:hover {
+            background-color: teal;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Review Page</h1>
+    </header>
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Search...">
+      <button class="search-button">Search</button>
+  </div>
+   
+        <div class="add-review">
+            <h2>Add Your Review</h2>
+            <textarea rows="4" placeholder="Write your review..."></textarea>
+            <button>Add Review</button>
+        </div>
+    </div>
+
+    <script>
+        // You can add JavaScript functionality here if needed
+    </script>
+</body>
+</html>
